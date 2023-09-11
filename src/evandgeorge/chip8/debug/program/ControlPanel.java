@@ -1,4 +1,4 @@
-package evandgeorge.chip8.vm.debug.program;
+package evandgeorge.chip8.debug.program;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,11 +1,11 @@
-package evandgeorge.chip8.vm.debug;
+package evandgeorge.chip8.debug;
 
 import evandgeorge.chip8.vm.audio.AudioOutput;
 import evandgeorge.chip8.vm.audio.SawtoothWaveTone;
 import evandgeorge.chip8.vm.audio.Sound;
-import evandgeorge.chip8.vm.debug.program.ControlPanel;
-import evandgeorge.chip8.vm.debug.program.FilterPanel;
-import evandgeorge.chip8.vm.debug.program.ProgramDisplay;
+import evandgeorge.chip8.debug.program.ControlPanel;
+import evandgeorge.chip8.debug.program.FilterPanel;
+import evandgeorge.chip8.debug.program.ProgramDisplay;
 import evandgeorge.chip8.vm.input.Keyboard;
 import evandgeorge.chip8.vm.instructions.DrawSpriteInstruction;
 import evandgeorge.chip8.vm.state.Memory;

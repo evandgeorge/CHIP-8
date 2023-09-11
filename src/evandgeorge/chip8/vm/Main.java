@@ -5,8 +5,8 @@ import evandgeorge.chip8.vm.audio.AudioOutput;
 import evandgeorge.chip8.vm.audio.SawtoothWaveTone;
 import evandgeorge.chip8.vm.audio.SquareWaveTone;
 import evandgeorge.chip8.vm.audio.Sound;
-import evandgeorge.chip8.vm.debug.CreateFieldWatchDialog;
-import evandgeorge.chip8.vm.debug.Debugger;
+import evandgeorge.chip8.debug.CreateFieldWatchDialog;
+import evandgeorge.chip8.debug.Debugger;
 import evandgeorge.chip8.vm.state.VirtualMachine;
 import evandgeorge.chip8.vm.types.Program;
 
@@ -23,7 +23,7 @@ public class Main {
 		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		JFrame frame = new JFrame();
 
-		Program program = Program.loadFromROM(Paths.get("C:\\Users\\Evan\\Desktop\\NEW CHIP-8 VM\\Pong [Paul Vervalin, 1990].ch8"));
+		Program program = Program.loadFromROM(Paths.get("Pong [Paul Vervalin, 1990].ch8"));
 		VirtualMachine vm = VirtualMachine.createFromProgram(program);
 
 		Debugger debugger = new Debugger(vm, program);

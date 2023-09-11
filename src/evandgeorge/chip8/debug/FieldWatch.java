@@ -1,4 +1,4 @@
-package evandgeorge.chip8.vm.debug;
+package evandgeorge.chip8.debug;
 
 import evandgeorge.chip8.vm.state.VirtualMachine;
 

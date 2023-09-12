@@ -24,7 +24,7 @@ public class VirtualMachine {
 
 	public static VirtualMachine nullMachine = new VirtualMachine(Memory.nullMemory, Display.blankDisplay, new RandomNumberGenerator(DEFAULT_SEED), Processor.nullProcessor);
 
-	public static VirtualMachine createFromProgram(Program program) throws IOException {
+	public static VirtualMachine createFromProgram(Program program) {
 		var memoryTransformer = nullMachine.memory.createTransformer();
 		memoryTransformer.setBytes(new Unsigned16Bit(Memory.ROM_BEGIN_OFFSET), program.romData);
 

@@ -1,4 +1,4 @@
-package evandgeorge.chip8.vm;
+package evandgeorge.chip8;
 
 
 import evandgeorge.chip8.vm.audio.AudioOutput;
